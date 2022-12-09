@@ -1,0 +1,16 @@
+package org.example.model;
+
+import java.util.List;
+
+public class YandexDictionary{
+	private Head head;
+	private List<DefItem> def;
+
+	public Head getHead(){
+		return head;
+	}
+
+	public List<DefItem> getDef(){
+		return def;
+	}
+}
